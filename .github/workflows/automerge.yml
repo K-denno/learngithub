@@ -1,7 +1,7 @@
 name: javis
 on:
   pull_request:
-    types: [unlocked]
+    types: [ unlocked ]
     branches:
       - dev/* # The branch you want to automatically merge pull request
 jobs:
@@ -14,7 +14,7 @@ jobs:
           # The label name to automatically merge. Default is "automerge".
           # label-name:
           # The number of reviewers to automatically merge. Default is 1.
-          reviewers-number: 1
+          reviewers-number: 0
           # The merge method ("merge", "squash", "rebase"). Default is "merge"
           merge-method: merge
           # Let the bot delete the merged branch. true or false.
