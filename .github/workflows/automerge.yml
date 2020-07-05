@@ -1,4 +1,4 @@
-name: Check PR can be merged
+name: Automerge
 on:
   pull_request:
     types: [unlocked]
